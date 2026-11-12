@@ -1,0 +1,23 @@
+name: Build Hominhtuan95 EXE
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PyInstaller
+        run: python -m pip install pyinstaller
+      - name: Check Python syntax
+        run: python -m py_compile Hominhtuan95.py
+      - name: Build EXE (console for debugging)
+        run: python -m PyInstaller --noconfirm --clean --onefile --console --name Hominhtuan95 Hominhtuan95.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Hominhtuan95_EXE
+          path: dist/Hominhtuan95.exe
