@@ -1,0 +1,21 @@
+HOMINHTUAN95 - AUTO 4 CUA SO
+
+1. Chay tren Windows 10/11, Python 3.10+:
+   python Hominhtuan95.py
+2. Nhan Lam moi cua so, chon game o toi da 4 o.
+3. Bat checkbox cac skill va nhap thoi gian bang GIAY, toi da 10800 giay (3 gio).
+4. F7 va F8 la BAM PHIM THEO CHU KY, KHONG TU DOC HP/MANA.
+5. Neu bat Ve Thanh F9, khi het so giay cai dat, Auto DUNG moi tac vu o cua so do truoc khi gui F9. Auto khong tu khoi dong lai.
+6. F1 bat/tat tat ca cac o da chon, chi khi giao dien Hominhtuan95 duoc focus.
+7. PostMessageW khong duoc moi game ho tro, nhat la khi chay nen.
+
+TAO EXE QUA GITHUB
+- Tao repository moi.
+- Upload Hominhtuan95.py vao thu muc goc.
+- Upload .github/workflows/build.yml dung duong dan.
+- Vao Actions > Build Hominhtuan95 EXE > Run workflow.
+- Tai artifact Hominhtuan95_EXE, giai nen, chay file .exe.
+- Build console de neu co loi se hien thi thong bao.
+
+Khong co HWID, khong co auto toa do, khong co auto doc HP/Mana.
+Lien he Zalo: TuanHo 0398438721
